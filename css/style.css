@@ -30,7 +30,7 @@ body{
     gap: 5%;
 }
 
-footer{
+footer ul{
     display: flex;
     justify-content: center;
     gap: 5%;
