@@ -53,7 +53,7 @@ img {
     flex-direction: column;
 }
 
-.footer {
+.footer ul {
     display: flex;
     justify-content: center;
     gap: 5%;
