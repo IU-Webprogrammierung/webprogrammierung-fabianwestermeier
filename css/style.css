@@ -1,0 +1,130 @@
+/* CSS Styles */
+/* Allgemeine CSS-Settings */
+nav {
+	width: 100%;
+    display: inline-block;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	padding: 2% ;
+	text-align: center;
+}
+
+body{
+    grid-template-rows: auto 1fr auto;
+}
+
+.welcomebanner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abschnitte{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    gap: 5%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    list-style-type: none;
+    flex-shrink: 0;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
+
+img {
+    max-width: 25%;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    list-style-type: none;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
+
+/* Kontaktformular */
+
+.kontaktformular {
+    place-items: center;
+    line-height: 40px;
+}
+
+/* Privat */
+
+.mainclassprivat {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.privatsection{
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* ################################# */
+/* Breakpoints für responsive Design */
+/* ################################# */
+
+/* Tablet Größe */
+/* 481 - 1279px Breite */
+@media (min-width: 481px) and (max-width: 1279px) {
+    img {
+        max-width: 50%;
+    }
+
+    .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    gap: 5%;
+    }
+}
+
+
+/* Desktop Größe */
+/* 1280px und breiter */
+@media (min-width: 1280px) {
+    img {
+        max-width: 25%;
+    }
+    
+    .cards{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    gap: 5%;
+    }
+
+    .text {
+       flex-direction: row;
+        flex: 2;
+    }
+
+    .text1, .text2 {
+        flex: 1;
+    }
+}
+
+

@@ -5,10 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="beruf.html">Beruf</a></li>
+                <li><a href="privat.html">Privat</a></li>
+                <li><a href="ehrenamt.html">Ehrenamt</a></li>
+                <li><a href="sport.html">Sport</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <form action="send.php" method="post" class="kontaktformular">
+            <h2>Kontaktforumlar</h2>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Nachname">
+
+                <label for="firstname">Vorname:</label>
+                <input type="text" id="firstname" name="firstname" required placeholder="Vorname">
+            </div>
+            
+            <div>
+                <label for="mail">E-Mail:</label>
+                <input type="email" id="mail" name="mail" required placeholder="abc@xyz.de">
+            </div>
+            
+            <div>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Geben Sie hier Ihre Nachricht ein."></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Senden</button>
+            </div>        
+        </form>
+    </main>
+
+    <div class="footer">
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+    </div>
 </body>
 
 </html>

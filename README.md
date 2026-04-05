@@ -8,7 +8,7 @@ https://iu-webprogrammierung.github.io/webprogrammierung-fabianwestermeier/
 
 
 ### Darstellung
-Responsive Design Layout mit CSS-Grid-System zusätzlich wird Flexbox verwendet werden.
+Responsive Design Layout wird CSS-Grid-System und Flexbox verwendet werden.
 
 ### Breakpoints
 Mobil 0px - 480px
