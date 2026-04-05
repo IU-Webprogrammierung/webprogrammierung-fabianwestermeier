@@ -4,16 +4,16 @@ nav {
 	width: 100%;
     display: inline-block;
 }
-nav ul{
+nav ul {
 	list-style: none;
 }
-nav ul li{
+nav ul li {
 	float: left;
 	padding: 2% ;
 	text-align: center;
 }
 
-body{
+body {
     grid-template-rows: auto 1fr auto;
 }
 
@@ -23,14 +23,14 @@ body{
     align-items: center;
 }
 
-.abschnitte{
+.abschnitte {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
     gap: 5%;
 }
 
-footer ul{
+footer ul {
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -53,7 +53,7 @@ img {
     flex-direction: column;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -78,7 +78,7 @@ img {
     grid-template-columns: 1fr 1fr;
 }
 
-.privatsection{
+.privatsection {
     grid-template-columns: 1fr 1fr;
 }
 
@@ -94,7 +94,7 @@ img {
         max-width: 50%;
     }
 
-    .cards{
+    .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
@@ -110,7 +110,7 @@ img {
         max-width: 25%;
     }
     
-    .cards{
+    .cards {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
